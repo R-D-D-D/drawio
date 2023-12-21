@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net" modified="2023-12-21T15:09:48.589Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="tXGsZOmEDmeDaFz7dWOJ" version="22.1.11" type="github">
+  <diagram name="Page-1" id="Dl1d8-50op7BgxrB6w2U">
+    <mxGraphModel dx="1020" dy="2174" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-1" target="eMu-bbKCbMAUfFqpTf1Y-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-1" value="get texts to process" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-4" target="eMu-bbKCbMAUfFqpTf1Y-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-4" value="extract entities" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="240" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-6" target="eMu-bbKCbMAUfFqpTf1Y-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-6" value="infer location base on extracted location and phone" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="440" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-8" target="eMu-bbKCbMAUfFqpTf1Y-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-12" value="No" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eMu-bbKCbMAUfFqpTf1Y-11" vertex="1" connectable="0">
+          <mxGeometry x="0.2444" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-17" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-8" target="eMu-bbKCbMAUfFqpTf1Y-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-8" value="location &lt;br&gt;found?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="360" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-10" value="Find a random order guide in the organization?" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-13" value="After all sorts of attempts" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="715" y="350" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-16" target="eMu-bbKCbMAUfFqpTf1Y-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-23" value="matched product" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eMu-bbKCbMAUfFqpTf1Y-19" vertex="1" connectable="0">
+          <mxGeometry x="-0.24" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-16" target="eMu-bbKCbMAUfFqpTf1Y-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-22" value="unmached product" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="eMu-bbKCbMAUfFqpTf1Y-21" vertex="1" connectable="0">
+          <mxGeometry x="0.005" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-16" value="infer products" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-18" target="eMu-bbKCbMAUfFqpTf1Y-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-18" value="store in product_in_order_table, but with custom_label column for display" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-20" value="Store unmatched extracted entities in a new column in order, unmached_entities" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="330" y="521.25" width="155" height="77.5" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="eMu-bbKCbMAUfFqpTf1Y-24" target="eMu-bbKCbMAUfFqpTf1Y-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-24" value="Update order status to AUTO_CONVERTED" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eMu-bbKCbMAUfFqpTf1Y-26" value="update message status to be processed" style="whiteSpace=wrap;html=1;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="640" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vXFaygZqnlIL2xJo0e2d-1" value="&lt;h1&gt;Auto Convert Process&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="410" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
