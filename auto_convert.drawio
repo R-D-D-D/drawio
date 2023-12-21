@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-21T15:34:36.977Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="OQvqzu4poILoUAB8Gl47" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-21T15:38:26.918Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="hfVrlxpRO8Zc5leKY9oj" version="22.1.11" type="github">
   <diagram name="Page-1" id="Dl1d8-50op7BgxrB6w2U">
-    <mxGraphModel dx="1434" dy="1872" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2607" dy="2504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -177,6 +177,9 @@
         </mxCell>
         <mxCell id="w-GJ_0CagrFxNj8pirr--34" value="For this PENDING-BOT status, it will be a new status for orders. The color of the label would be same as pending.&amp;nbsp;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="960" y="1090" width="255" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="w-GJ_0CagrFxNj8pirr--35" value="The reason for running a backrgound job is to save on resources. Each of the message coming in would result in a call which is a connection to the database, this is expensive. As we have seen with so little users our database is crashing. With this background job, maybe 5 orders needs only 1 database connection, this behavior will benefit us in the long run and I think in terms of business, having orders generated maximum of 5 minutes late won&#39;t be much of an issue, correct me if I&#39;m wrong&amp;nbsp;" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="260" height="180" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
