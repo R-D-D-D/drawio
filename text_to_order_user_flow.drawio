@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-12-26T14:14:11.691Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" version="22.1.11" etag="bibgS6slDHbCG5Kw1M0b" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-26T14:24:05.797Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="5H0XYRkuQ7fGa8a6ZGpu" version="22.1.11" type="github">
   <diagram name="Page-1" id="_rNO2T0T2BEtqXHNIDhr">
-    <mxGraphModel>
+    <mxGraphModel dx="714" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="GIEvsqBPajRZyehp3M3l-1" value="&lt;h1&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Text To Order User Flow&lt;/span&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-2" target="GIEvsqBPajRZyehp3M3l-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-2" value="Supplier assigns catalogue items to order guide that belongs to individual restaurant&#39;s location" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-3" target="GIEvsqBPajRZyehp3M3l-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-3" value="Users will see order guide that the current chat/chat group has association with" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-5" value="More details in order guide docs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="40" y="180" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-6" target="GIEvsqBPajRZyehp3M3l-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-6" value="User identifies messages in chats as order messages and click on &quot;Convert with ZOLO&quot; to initiate a conversion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="90" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-10" target="GIEvsqBPajRZyehp3M3l-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-20" value="YES" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GIEvsqBPajRZyehp3M3l-15">
+          <mxGeometry x="-0.2222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-10" target="GIEvsqBPajRZyehp3M3l-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-19" value="NO" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="GIEvsqBPajRZyehp3M3l-17">
+          <mxGeometry x="-0.0286" y="-3" relative="1" as="geometry">
+            <mxPoint y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-10" value="Auto detection of location success?" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="607.5" y="240" width="135" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-14" target="GIEvsqBPajRZyehp3M3l-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-14" value="Call BE api /entitiy-extraction and /infer to match text with products" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="615" y="410" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-16" target="GIEvsqBPajRZyehp3M3l-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="610" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="460" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-16" value="User mannually choose a location from dropdown" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="400" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-21" target="GIEvsqBPajRZyehp3M3l-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-21" value="User do a mannual check on the matching result and make changes if necessary.&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="592.5" y="538" width="165" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-23" target="GIEvsqBPajRZyehp3M3l-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-23" value="Click &quot;Next&quot; to submit the order" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="331" y="538" width="165" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="GIEvsqBPajRZyehp3M3l-25" target="GIEvsqBPajRZyehp3M3l-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-25" value="Popup will be shown to let the users verify again the order and able to see the order id" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="538" width="165" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="GIEvsqBPajRZyehp3M3l-27" value="Messages converted to orders will have a dot on the top right to indicate that an order is generated with this." style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="86" y="680" width="165" height="62" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
